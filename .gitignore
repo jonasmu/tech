@@ -4,3 +4,5 @@
 
 /Tech/.vs/Tech/v15/Server/sqlite3
 /.vs/Tech/v15
+/.vs/Tech/DesignTimeBuild
+/src/Tech.Domain/obj
