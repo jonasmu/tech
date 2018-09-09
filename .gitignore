@@ -6,3 +6,8 @@
 /.vs/Tech/v15
 /.vs/Tech/DesignTimeBuild
 /src/Tech.Domain/obj
+/src/Tech.Core/bin/Debug
+/src/Tech.Core/obj/Debug
+/src/Tech.Domain/bin/Debug
+/src/Tech.Manager/obj/Debug
+/src/Tech.Repositories/obj/Debug

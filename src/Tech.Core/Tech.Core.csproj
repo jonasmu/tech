@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A5FCBA19-2269-49C7-B044-746D1FDCFA85}</ProjectGuid>
+    <ProjectGuid>{A125756F-4203-4574-8ED4-FC91D564E6E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tech.Domain</RootNamespace>
-    <AssemblyName>Tech.Domain</AssemblyName>
+    <RootNamespace>Tech.Core</RootNamespace>
+    <AssemblyName>Tech.Core</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -42,8 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Audio.cs" />
+    <Compile Include="Manager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tech.Domain\Tech.Domain.csproj">
+      <Project>{A5FCBA19-2269-49C7-B044-746D1FDCFA85}</Project>
+      <Name>Tech.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,8 +5,8 @@ using System.Text;
 
 namespace Tech.Domain
 {
-    public class Class1
+    public class Audio
     {
-        // .NET Framework 4 testing.
+        public string Name { get; set; }
     }
 }
